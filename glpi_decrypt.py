@@ -1,3 +1,11 @@
+#!/usr/bin/env python3
+# File: glpi_decrypt.py
+# Author: 0xKaiser (GitHub: erikgavs)
+# Purpose: Decrypt a value from GLPI.
+# Usage: python3 glpi_decrypt.py '<base64-value>'
+# Check the key file path in the script before running it.
+# Needs: PyNaCl
+
 import base64
 import sys
 from pathlib import Path
